@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlurFilter.cs" />
+    <Compile Include="BlurFilter2.cs" />
+    <Compile Include="brightness.cs" />
+    <Compile Include="ClosingFilter.cs" />
+    <Compile Include="DilationFilter.cs" />
+    <Compile Include="embossingFilter.cs" />
+    <Compile Include="ErosionFilter.cs" />
     <Compile Include="Filters.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -55,10 +61,27 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="GausianFilter.cs" />
+    <Compile Include="GlassEffectFilter.cs" />
+    <Compile Include="GradientFilter.cs" />
     <Compile Include="GrayScaleFilter.cs" />
+    <Compile Include="GrayWorldFilter.cs" />
+    <Compile Include="LinearStrechingFilter.cs" />
+    <Compile Include="medianFilter.cs" />
+    <Compile Include="OpeningFilter.cs" />
+    <Compile Include="operatorPruita.cs" />
+    <Compile Include="operatorsharraFilter.cs" />
+    <Compile Include="PerfectReflectorFilter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RotateFilter.cs" />
     <Compile Include="SepiaFilter.cs" />
+    <Compile Include="sharpnessFilter.cs" />
+    <Compile Include="sobelfilter.cs" />
+    <Compile Include="Svetkraya.cs" />
+    <Compile Include="TopHatFilter.cs" />
+    <Compile Include="transferFilter.cs" />
+    <Compile Include="WavesFilter.cs" />
+    <Compile Include="WavesFilter2.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
